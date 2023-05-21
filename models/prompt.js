@@ -1,11 +1,10 @@
-import { Schema, model, models, mongoose } from 'mongoose';
+import { Schema, model, models } from 'mongoose';
 import User from './user';
 
 const PromptSchema = new Schema({
   creator: {
-    type: mongoose.Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: User,
-    required: [true, 'Email is required!'],
   },
   prompt: {
     type: String,
