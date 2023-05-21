@@ -2,8 +2,8 @@
   "compilerOptions": {
     "paths": {
       "@*": ["./*"]
-    },
+    }
     // "checkJs": true,
-    "jsx": "react-jsx"
+    // "jsx": "react-jsx"
   }
 }
